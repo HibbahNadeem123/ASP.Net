@@ -1,0 +1,183 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+header img {
+    width: 102.5%;
+    height: 600px;
+    margin-left: -20px;
+}
+
+.images {
+    opacity: 1;
+    display: block;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 102.5%;
+    padding-top: 20px;
+}
+
+header:hover .middle {
+    opacity: 1;
+}
+
+header:hover #HeadText {
+    opacity: 1;
+}
+
+header:hover .images {
+    opacity: 0.5;
+}
+
+.text {
+    font-size: 30px;
+    /*background-color:lightblue;*/
+    padding-top: 8px;
+}
+
+nav span {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+nav {
+    height: 60px;
+}
+
+    nav a:link {
+        text-decoration: none;
+        color: darkblue;
+        font-weight: bolder;
+        font-family: Forte;
+    }
+
+span a:hover {
+    background-color: powderblue;
+}
+
+#HeadText {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 102.5%;
+    padding-top: 20px;
+    font-family: 'Goudy Stout';
+    font-size: 60px;
+    font-stretch: expanded;
+}
+
+h1 {
+    font-size: 50px;
+    color: dodgerblue;
+    font-family: 'Goudy Stout';
+    font-weight: bold;
+    text-align: center;
+}
+
+#salutation {
+    color: dimgrey;
+    font-style: normal;
+    font-size: 40px;
+    font-family: Forte;
+    font-weight: bold;
+}
+
+.maincontent {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bulletimg {
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table img {
+    width: 400px;
+    height: 400px;
+    border-color: darkgoldenrod;
+    border-spacing: 30px;
+    border-style: double;
+    border-collapse: collapse;
+    opacity: 1;
+    display: block;
+}
+
+.middletext {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#tableText {
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Goudy Stout';
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+td:hover .middletext {
+    opacity: 1;
+}
+
+td:hover #tableText {
+    opacity: 1;
+}
+
+td:hover img {
+    opacity: 0.4;
+}
+
+.containers {
+    position: relative;
+    width: 50%;
+}
+
+footer {
+    font-size: 20px;
+    background-color: lightblue;
+    color: blue;
+}
+
+    footer h1 {
+        text-align: center;
+    }
+
+    footer div {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: Forte;
+    }
+
+a:link {
+    text-decoration: none;
+}
